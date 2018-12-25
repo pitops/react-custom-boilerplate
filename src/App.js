@@ -1,12 +1,14 @@
 import React, { Component } from 'react'
 import { hot } from 'react-hot-loader'
 
+const a = 'A'
+
 class app extends Component {
   state = {
     count: 0
   }
 
-  render() {
+  render () {
     return (
       <div>
         <h1>Hello world!!!!</h1>
