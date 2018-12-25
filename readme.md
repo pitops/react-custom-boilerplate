@@ -34,6 +34,8 @@ This is a "barebones" starter for those who want to start developing quickly wit
 
 💛 Webpack bundle analyzer
 
+💛 Accessibility(a11y) checks during Runtime using Axe
+
 ### Setup
 
 ```bash
