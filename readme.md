@@ -32,6 +32,8 @@ This is a "barebones" starter for those who want to start developing quickly wit
 
 💛 Webpack merge with separate config files for development and production environments
 
+💛 Webpack bundle analyzer
+
 ### Setup
 
 ```bash
