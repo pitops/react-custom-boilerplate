@@ -14,8 +14,6 @@ This is a "barebones" starter for those who want to start developing quickly wit
 
 💛 Prettier
 
-💛 Jest
-
 💛 PropTypes
 
 💛 Pre-commit hook for linting, prettyfying files and testing
