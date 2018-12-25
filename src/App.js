@@ -1,18 +1,14 @@
 import React, { Component } from 'react'
 import { hot } from 'react-hot-loader'
 
-class app extends Component {
-  state = {
-    count: 0
-  }
-
-  render () {
+class App extends Component {
+  render() {
     return (
       <div>
-        <h1>Hello world!!!!</h1>
+        <h1>Hello world.</h1>
       </div>
     )
   }
 }
 
-export default hot(module)(app)
+export default hot(module)(App)
