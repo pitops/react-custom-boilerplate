@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { hot } from 'react-hot-loader'
 
-const a = 'A'
+const a = 'yolo'
 
 class app extends Component {
   state = {
