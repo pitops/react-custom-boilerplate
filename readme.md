@@ -1,6 +1,6 @@
 # Custom React Boilerplate
 
-This is a barebones starter for those who want to start developing quickly without getting distracted from tedious tasks.
+This is a "barebones" starter for those who want to start developing quickly without getting distracted from tedious tasks.
 
 ### Includes
 
@@ -22,7 +22,7 @@ This is a barebones starter for those who want to start developing quickly witho
 
 💛 Jest
 
-💛 React 16.7.0 with Property fields and dynamic imports ready
+💛 React 16.7.0 with class fields and dynamic imports support
 
 💛 React StrictMode
 
