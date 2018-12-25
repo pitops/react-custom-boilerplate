@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import { hot } from 'react-hot-loader'
 
-const a = 'yolo'
-
 class app extends Component {
   state = {
     count: 0
