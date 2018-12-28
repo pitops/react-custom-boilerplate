@@ -9,11 +9,13 @@
     "dev:hot": "npm run dev -- --hot",
     "test": "jest",
     "lint": "eslint ./",
-    "format": "pretty-quick"
+    "flow": "flow",
+    "format": "pretty-quick",
+    "eslint-check": "eslint --print-config . | eslint-config-prettier-check"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged && npm run lint && npm run test"
+      "pre-commit": "pretty-quick --staged && npm run lint && npm run flow && npm run test"
     }
   },
   "author": "",
@@ -39,11 +41,12 @@
     "babel-jest": "^23.6.0",
     "babel-loader": "^8.0.4",
     "babel-plugin-dynamic-import-node": "^2.2.0",
-    "css-loader": "^2.0.2",
+    "css-loader": "^2.1.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
-    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-react": "^7.12.0",
+    "flow-bin": "^0.89.0",
     "html-webpack-plugin": "^3.2.0",
-    "husky": "^1.2.1",
+    "husky": "^1.3.1",
     "jest": "^23.6.0",
     "jest-dom": "^3.0.0",
     "prettier": "^1.15.3",
@@ -59,7 +62,8 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.2.5",
-    "eslint": "^5.11.0",
+    "core-js": "^2.6.1",
+    "eslint": "^5.11.1",
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
