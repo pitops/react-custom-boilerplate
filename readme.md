@@ -10,6 +10,8 @@ This is a "barebones" starter for those who want to start developing quickly wit
 
 💛 ES2018
 
+💛 Styled Components
+
 💛 ESlint
 
 💛 Prettier

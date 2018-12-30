@@ -1,6 +1,9 @@
+const path = require('path')
+
 module.exports = {
   // explicit declaration that the testing environment is intended for browsers
   testEnvironment: 'jest-environment-jsdom',
+  moduleDirectories: ['node_modules', path.join(__dirname, 'src'), 'shared'],
   setupTestFrameworkScriptFile: '<rootDir>/testSetup.js',
   moduleNameMapper: {
     '\\.module\\.css$': 'identity-obj-proxy',
