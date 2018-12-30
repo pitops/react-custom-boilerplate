@@ -12,6 +12,8 @@ This is a "barebones" starter for those who want to start developing quickly wit
 
 💛 Styled Components
 
+💛 Default theme setup
+
 💛 ESlint
 
 💛 Prettier
@@ -21,6 +23,8 @@ This is a "barebones" starter for those who want to start developing quickly wit
 💛 Pre-commit hook for linting, prettyfying files and testing
 
 💛 Jest
+
+💛 Enzyme
 
 💛 React 16.7.0 with class fields and dynamic imports support
 
