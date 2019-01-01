@@ -14,5 +14,22 @@ module.exports = {
     '\\.module\\.css$': 'identity-obj-proxy',
     '\\.(css|sass|scss|less)$': require.resolve('./test/style-mock.js')
   },
-  snapshotSerializers: ['enzyme-to-json/serializer']
+  snapshotSerializers: ['enzyme-to-json/serializer'],
+  collectCoverageFrom: ['**/src/**/*.js'],
+  coverageThreshold: {
+    // Global coverage threshold
+    // global: {
+    //   statements: 100,
+    //   branchers: 100,
+    //   lines: 100,
+    //   function: 100
+    // }
+    // sample coverage threshold for specific files
+    // './src/shared/utils.js': {
+    //   statements: 100,
+    //   branchers: 100,
+    //   lines: 100,
+    //   function: 100
+    // }
+  }
 }
