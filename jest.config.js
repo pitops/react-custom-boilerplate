@@ -31,5 +31,9 @@ module.exports = {
     //   lines: 100,
     //   function: 100
     // }
-  }
+  },
+  watchPlugins: [
+    'jest-watch-typeahead/filename',
+    'jest-watch-typeahead/testname'
+  ]
 }
