@@ -1,5 +1,7 @@
 # Custom React Boilerplate
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/pitops/react-custom-boilerplate.svg)](https://greenkeeper.io/)
+
 This is a "barebones" starter for those who want to start developing quickly without getting distracted from tedious tasks.
 
 ### Includes
