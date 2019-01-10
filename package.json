@@ -18,6 +18,7 @@
     "validate": "npm run flow && jest",
     "setup": "npm install && npm run validate"
   },
+  "browserslist": "last 2 versions, not dead, not < 2%, not ie 11",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged && npm run validate"
@@ -64,6 +65,8 @@
     "jest-styled-components": "^6.3.1",
     "jest-watch-typeahead": "^0.2.0",
     "lint-staged": "^8.1.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-normalize": "^7.0.1",
     "prettier": "^1.15.3",
     "pretty-quick": "^1.8.0",
     "react-axe": "^3.0.2",

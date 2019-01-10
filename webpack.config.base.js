@@ -1,5 +1,6 @@
 const path = require('path')
 const HTMLWebpackPlugin = require('html-webpack-plugin') // generates an index.html
+const postcssNormalize = require('postcss-normalize')
 
 module.exports = {
   entry: './src/index.js',
@@ -26,7 +27,24 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader'],
+        use: [
+          'style-loader',
+          {
+            loader: 'css-loader',
+            options: {
+              sourceMap: true
+            }
+          },
+          // postcss-loader needs to be before less|sass loaders
+          {
+            loader: 'postcss-loader',
+            options: {
+              ident: 'postcss',
+              sourceMap: true,
+              plugins: () => [postcssNormalize(/* pluginOptions */)]
+            }
+          }
+        ],
         exclude: /node_modules/
       }
     ]
