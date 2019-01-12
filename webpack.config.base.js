@@ -44,8 +44,8 @@ module.exports = {
               plugins: () => [postcssNormalize(/* pluginOptions */)]
             }
           }
-        ],
-        exclude: /node_modules/
+        ]
+        // exclude: /node_modules/
       },
       {
         test: /\.(png|svg|jpg|gif)$/,
