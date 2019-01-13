@@ -11,7 +11,7 @@ module.exports = {
   },
   settings: {
     react: {
-      version: '16.7.0'
+      version: '16.8.0-alpha.0'
     }
   },
   extends: [
@@ -32,7 +32,8 @@ module.exports = {
     }
   ],
   rules: {
-    'no-console': 'off'
+    'no-console': 'off',
+    'react-hooks/rules-of-hooks': 'error'
   },
   parserOptions: {
     ecmaFeatures: {
@@ -41,5 +42,5 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module'
   },
-  plugins: ['react', 'jsx-a11y']
+  plugins: ['react', 'react-hooks', 'jsx-a11y']
 }

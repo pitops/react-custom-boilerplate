@@ -8,6 +8,8 @@ This is a "barebones" starter for those who want to start developing quickly wit
 
 💛 Webpack 4
 
+💛 React hooks with eslint support enabled
+
 💛 Babel 7
 
 💛 ES2018
