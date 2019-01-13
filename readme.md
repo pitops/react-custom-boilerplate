@@ -10,7 +10,7 @@ This is a "barebones" starter for those who want to start developing quickly wit
 
 💛 React hooks with eslint support enabled
 
-💛 Babel 7
+💛 Babel 7 (class fields and dynamic imports support)
 
 💛 ES2018
 
@@ -30,7 +30,7 @@ This is a "barebones" starter for those who want to start developing quickly wit
 
 💛 Enzyme
 
-💛 React 16.7.0 with class fields and dynamic imports support
+💛 React 16.8.0-alpha
 
 💛 React StrictMode
 
